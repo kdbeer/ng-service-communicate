@@ -1,0 +1,13 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+
+.component-a {
+  grid-column: 1/2;
+}
+
+.component-b {
+  grid-column: 2/3;
+}
